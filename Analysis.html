@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisys</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header_inner">
+                    <a class="logo" href="Attempt1.html">
+                        <img class="logo" src="images/Ресурс 1@0.5x.png">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu_list">
+                            <li class="menu_list_item">
+                                <a href="#" class="menu_list_link">Главная</a>
+                            </li>
+                            <li class="menu_list_item">
+                                <a href="#" class="menu_list_link">О нас</a>
+                            </li>
+                            <li class="menu_list_item">
+                                <a href="#" class="menu_list_link">Проект</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="maps">
+                <div class="maps_container">
+                    <h1 class="maps_title">Проект</h1>
+                    <div class="tabs">
+                        <div class="tabs_btn">
+                            <button class="tabs_btn_item tabs_btn_item_active" onclick="openMaps(event, 'Местность')" data-button="content-1">Местность</button>
+                            <button class="tabs_btn_item" onclick="openMaps(event, 'Местность')" data-button="content-2">Инфраструктура</button>
+                            <button class="tabs_btn_item" onclick="openMaps(event, 'Транзит')" data-button="content-3">Транзит</button>
+                            <button class="tabs_btn_item" onclick="openMaps(event, 'Анализ')" data-button="content-4">Анализ</button>
+                        </div>
+                        <div class="tabs_content">
+                            <div class="tabs_content_item tabs_content_item-active" id="Местность">
+                                <div class="map_card">
+                                    <img src="images/рельеф_small.jpg" alt="" class="card_img">
+                                    <div class="card_content">
+                                      <h4 class="card_title">Рельеф</h4>
+                                      <p class="card_text">бла бла бла бла бла бла бла</p>
+                                    </div>
+                                      <a href="#" class="card_link">Подробнее</a>  
+                                </div>
+                                <div class="map_card">
+                                    <img src="images/озеленение_small.jpg" alt="" class="card_img">
+                                    <div class="card_content">
+                                      <h4 class="card_title">Озеленение</h4>
+                                      <p class="card_text">бла бла бла бла бла бла бла</p>
+                                    </div>
+                                      <a href="#" class="card_link">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="tabs_content_item" id="Инфраструктура">
+                                <div class="map_card">
+                                    <img src="images/рельеф_small.jpg" alt="" class="card_img">
+                                    <div class="card_content">
+                                      <h4 class="card_title">Рельеф</h4>
+                                      <p class="card_text">бла бла бла бла бла бла бла</p>
+                                    </div>
+                                      <a href="#" class="card_link">Подробнее</a>  
+                                </div>
+                                <div class="map_card">
+                                    <img src="images/озеленение_small.jpg" alt="" class="card_img">
+                                    <div class="card_content">
+                                      <h4 class="card_title">Озеленение</h4>
+                                      <p class="card_text">бла бла бла бла бла бла бла</p>
+                                    </div>
+                                      <a href="#" class="card_link">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="tabs_content_item" id="Транзит">
+                                <div class="map_card">
+                                    <img src="images/рельеф_small.jpg" alt="" class="card_img">
+                                    <div class="card_content">
+                                      <h4 class="card_title">Рельеф</h4>
+                                      <p class="card_text">бла бла бла бла бла бла бла</p>
+                                    </div>
+                                      <a href="#" class="card_link">Подробнее</a>  
+                                </div>
+                                <div class="map_card">
+                                    <img src="images/озеленение_small.jpg" alt="" class="card_img">
+                                    <div class="card_content">
+                                      <h4 class="card_title">Озеленение</h4>
+                                      <p class="card_text">бла бла бла бла бла бла бла</p>
+                                    </div>
+                                      <a href="#" class="card_link">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="tabs_content_item" id="Анализ">
+                                <div class="map_card">
+                                    <img src="images/рельеф_small.jpg" alt="" class="card_img">
+                                    <div class="card_content">
+                                      <h4 class="card_title">Рельеф</h4>
+                                      <p class="card_text">бла бла бла бла бла бла бла</p>
+                                    </div>
+                                      <a href="#" class="card_link">Подробнее</a>  
+                                </div>
+                                <div class="map_card">
+                                    <img src="images/озеленение_small.jpg" alt="" class="card_img">
+                                    <div class="card_content">
+                                      <h4 class="card_title">Озеленение</h4>
+                                      <p class="card_text">бла бла бла бла бла бла бла</p>
+                                    </div>
+                                      <a href="#" class="card_link">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="table">
+                <table>
+                    <tr><th>здание</th><th>процесс износа</th></tr> 
+                    <tr><td><a href="images/12005162247234047.jpg"><img class="td_img" src="images/12005162247234047.jpg"></a></td><td>данные</td></tr>
+                    <tr><td> <a href="Attempt1.html">данные</a></td><td>данные</td></tr>
+                    <tr><td>данные</td><td>данные</td></tr>
+                    <tr><td>данные</td><td>данные</td></tr>
+                    <tr><td>данные</td><td>данные</td></tr> 
+                    </table>
+            </section>
+            <section class="analisys">
+                <div class="analisys_container">
+                    <h1 class="analisys_title">Краткие выводы, к которым мы пришли</h1>
+                    <p class="analisys_txt">Соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности напрямую зависит от соответствующих условий активизации? Соображения высшего порядка, а также новая модель организационной деятельности играет важную роль в формировании соответствующих условий активизации. Задача организации, в особенности же постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание системы обучения кадров, соответствующей насущным потребностям.
+                        Соображения высшего порядка, а также выбранный нами инновационный путь обеспечивает широкому кругу специалистов участие в формировании форм воздействия! Соображения высшего порядка, а также новая модель организационной деятельности обеспечивает широкому кругу специалистов участие в формировании новых предложений? Значимость этих проблем настолько очевидна, что новая модель организационной деятельности требует от нас системного анализа системы обучения кадров, соответствующей насущным потребностям. Повседневная практика показывает, что курс на социально-ориентированный национальный проект требует определения и уточнения направлений прогрессивного развития.                       
+                        Повседневная практика показывает, что новая модель организационной деятельности требует определения и уточнения позиций, занимаемых участниками в отношении поставленных задач.                      
+                        Равным образом рамки и место обучения кадров позволяет оценить значение форм воздействия. Практический опыт показывает, что начало повседневной работы по формированию позиции играет важную роль в формировании всесторонне сбалансированных нововведений? Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации существующих... 
+                    <ul class="analisys_list1">
+                        <li class="analisys_list_item1">Город</ul></ul>
+                    <ol type="1"  class="analisys_list2">
+                        <li class="analisys_list_item2">Деревня</li></ol>
+                        <ul>
+                            <li>Пункт 1.</li>
+                             <li>Пункт 2.
+                               <ul>
+                                 <li>Подпункт 2.1.</li>
+                                  <li>Подпункт 2.2.     
+                                   <ul>
+                                     <li>Подпункт 2.2.1.</li>
+                                     <li>Подпункт 2.2.2.</li>
+                                     </ul>
+                                  </li>          
+                                 <li>Подпункт 2.3.</li>
+                               </ul>
+                             </li>
+                            <li>Пункт 3.</li>
+                           </ul>
+                    </p>
+                </div>
+            </section>
+            
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer_menu">
+                    <ul class="footer_menu_list">
+                        <p class="footer_menu_title">Проект</p>
+                    </li>
+                    <li class="footer_menu_item">
+                        <a href="#" class="footer_menu_link">Местность</a>
+                    </li>
+                    <li class="footer_menu_item">
+                        <a href="#" class="footer_menu_link">Инфраструктура</a>
+                    </li>
+                    <li class="footer_menu_item">
+                        <a href="#" class="footer_menu_link">Транзит</a>
+                    </li>
+                    <li class="footer_menu_item">
+                        <a href="#" class="footer_menu_link">Анализ</a>
+                    </li>
+                    </ul>
+                    <ul class="footer_menu_list">
+                        <li class="footer_menu_item">
+                            <p class="footer_menu_title">О нас</p>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Кто мы?</a>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Полевые выезды</a>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Контакты</a>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Связаться с нами</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer_disclaimer">
+                    <p class="footer_disclaimer_content">
+                        Данный сайт был создан в учебных целях и для саморазвития. Очень прошу не пиздить код этого сайта, так как я над ним очень старалась! Люблю целую обнимаю!
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <div class="btn-up btn-up_hide">Наверх</div>
+    </div>
+
+</body>
+<script src="js/main.js"></script>
+</html>
